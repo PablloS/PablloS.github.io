@@ -68,8 +68,6 @@ function startGame() {
                     N++;
                 if (enemySpeed < 2)
                     enemySpeed += 0.01;
-                if (N==15) 
-                    clearInterval(id4);
             }
         }, 15000);
         id4 = setInterval(function () {
