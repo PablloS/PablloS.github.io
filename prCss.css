@@ -1,0 +1,201 @@
+* {
+    height: 100%; 
+    width: 100%; 
+}
+body {
+    background-image: url(img/background.png);
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+}
+#gameContent {
+    display: flex; 
+    flex-direction: column; 
+}
+#gameArea {
+    background-image: url(img/gamearea.png); 
+    background-size: contain; 
+    display: flex;
+    border: 5px ridge black;
+    width: 45%; 
+    height: 80%; 
+    position: relative;
+    border-radius: 10px; 
+}
+#start, #pause, #rules {
+    display: flex; 
+    justify-content: center;
+    width: 80%; 
+    height: 20%; 
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 30pt; 
+    background-color: #009900;
+}
+#bestScore {
+    display: flex; 
+    justify-content: flex-start;
+    border: 1px outset black;
+    text-align: center;
+    width: 95%; 
+    height: 25%; 
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 25pt; 
+    background-color: #009900; 
+}
+#text1 {
+    width: 60%; 
+}
+#score {
+    width: 30%;
+}
+#butt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 20%; 
+    height: 30%;
+}
+#base {
+    background-image: url(img/base.png);
+    background-size: contain; 
+    width: 100%; 
+    height: 10%; 
+    position: absolute; 
+    bottom: 0%;
+}
+#baseHp {
+    width: 45%; 
+    height: 3%; 
+    background-color: red; 
+    margin: 5px; 
+    border-radius: 20px; 
+}
+#scoreCont {
+    display: flex; 
+    width: 30%; 
+    height: 10%; 
+    justify-content:space-between;
+}
+#points, #pointsVal {
+    width: 45%;  
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 35pt; 
+}
+.enemy {
+    background: url(img/enemy.png) no-repeat; 
+    background-size: contain; 
+    width: 4%; 
+    height: 4%;
+    position: absolute; 
+}
+#endGame {
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    width: 40%; 
+    height: 20%; 
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 40pt; 
+    top: 30%; 
+    left: 30%; 
+}
+#newGame {
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 40pt; 
+    background-color: #009900;
+}
+#skillCont {
+    display: flex; 
+    width: 45%; 
+    height: 5%; 
+    justify-content: flex-end; 
+}
+#heal, #boom, #freeze {
+    border: 2px inset black;
+    border-radius: 3px;
+    margin: 7px; 
+    width: 20%; 
+    text-align: center;
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 20pt; 
+}
+#heal {
+    background-color: #009900;
+}
+#boom {
+    background-color: #ff3333;
+}
+#freeze { 
+    background-color: #00ccff;
+}
+#moneyCont {
+    border: 2px inset black;
+    border-radius: 3px;
+    display: flex; 
+    justify-content: center;
+    margin: 7px;
+    width: 30%;
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 25pt; 
+    background-color: #009900;
+}
+#money, #moneyVal {
+    text-align: center;
+    width: 40%; 
+}
+#drop {
+    background: url(img/box.png) no-repeat; 
+    background-size: contain; 
+    width: 4%;
+    height: 4%; 
+    position: absolute; 
+}
+#description {
+    position: absolute; 
+    top: 10%; 
+    left: 10%;
+    border: 5px ridge black;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-content: space-between;
+    width: 40%; 
+    height: 30%; 
+    color: white;
+    font-family: "Mistral", cursive;
+    font-size: 22pt; 
+    background-color: #009900;
+}
+.Descr {
+    text-align: center;
+    height: 20%; 
+}
+#f {
+    background-color: #00ccff;
+}
+#b {
+    background-color: #ff3333;
+}
+#close {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    height: 25%; 
+    width: 30%; 
+    align-self: center;
+    border: 2px groove black;
+    border-radius: 10px; 
+}
